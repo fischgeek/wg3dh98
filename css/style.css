@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Orbitron;
+    src: url('orbitron.ttf');
+}
+
+body {
+    background: rgb(92, 99, 103);
+    margin: 0;
+    overflow: hidden;
+}
+
+.dropShadow {
+    box-shadow: 0 0 18px black;
+}
+
+#target {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 130px;
+    background: #244F89;
+    color: white;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#container {
+    min-width: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    display: table;
+    width: 500px;
+}
+
+#teamImgContainer {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#teamImg {
+    width: 500px;
+    height: auto;
+    border: 0px transparent !important;
+}
+
+#list {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+}
